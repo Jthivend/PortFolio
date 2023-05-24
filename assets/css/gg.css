@@ -1,0 +1,25 @@
+body{
+    background-color: #272829;
+}
+#myCarousel .item{
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+  }
+  #myCarousel .first-item{
+    background-image: url('http://placehold.it/500x500');
+  }
+  #myCarousel .second-item{
+    background-image: url('http://placehold.it/500x500');
+  }
+  #myCarousel .third-item{
+    background-image: url('http://placehold.it/500x500');
+  }
+  #myCarousel .carousel-heading{font-size: 40px;}
+  @media screen and (max-width: 767px){
+      #myCarousel .carousel-heading{font-size: 18px;}
+      #myCarousel .carousel-description{font-size: 12px;}
+      #myCarousel .btn-primary{font-size: 14px;}
+  }
